@@ -1,0 +1,294 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+
+.bo {
+    background-color:inherit;
+    border:none;
+    font-size: 25px;
+    padding-top:0.1px;
+    padding-bottom:5px;
+    cursor:pointer;
+}
+
+.bo:hover {
+    background:inherit;
+    color:white;
+}
+
+.btn {
+    background-color:inherit;
+    border:none;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background:inherit;
+    color:white;
+}
+
+.button {
+    border:none;
+    background-color:lightgrey;
+    padding: 10px 30px 10px 30px;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color:white;
+}
+
+.top-rows {
+    display: flex;
+    background-color:grey;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.row-2 {
+    position: relative;
+    background-color:darkgrey;
+    padding-left:200px;
+}
+
+.row {
+    display:flex;
+    margin-top:50px;
+}
+
+.column {
+    flex:33.33%
+    padding:5px;
+    position:relative;
+    text-align:center;
+    color:white;
+    font-size:18px;
+}
+
+.a9 {
+    position:absolute;
+    top:30px;
+    left:30px;
+    bottom:50px;
+
+}
+
+.Ba9 {
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+    bottom:50px;
+    left:140px;
+}
+
+.column:hover  .Ba9 {
+    visibility:visible;
+    opacity:1;
+}
+
+.bronze {
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+    bottom:50px;
+    left:140px;
+}
+
+.column:hover  .bronze {
+    visibility:visible;
+    opacity:1;
+}
+
+.david {
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+    bottom:50px;
+    left:140px;
+}
+
+
+.column:hover  .david {
+    visibility:visible;
+    opacity:1;
+}
+
+
+.column:hover  .buttons {
+    visibility:visible;
+    opacity:1;
+}
+
+.buttons {
+    position:absolute;
+    border:none;
+    background-color:lightgrey;
+    padding: 10px 30px 10px 30px;
+    visibility:hidden;
+    opacity:0;
+    bottom:24px;
+    left:150px;
+    cursor:pointer;
+}
+
+.buttons:hover {
+    background-color:white;
+}
+
+.grid1 {
+    display:flex;
+    margin:180px;
+}
+
+.grid2 {
+    display:flex;
+    margin:180px;
+}
+
+.line1 {
+    position:relative;
+}
+
+.line2 {
+    position:relative;
+}
+
+
+.speaker {
+    position:absolute;
+    top:20px;
+    left:20px;
+    font-size:20px;
+}
+
+.gridbtn {
+    bottom:55px;
+    left:115px;
+    visibility:hidden;
+    background-color:darkgrey;
+    border:none;
+    position:absolute;
+    opacity:0;
+    padding:10px 30px 10px 30px;
+    cursor:pointer;
+}
+
+.line1:hover .gridbtn {
+    visibility:visible;
+    opacity:1;
+}
+
+.line2:hover .gridbtn {
+    visibility:visible;
+    opacity:1;
+}
+
+.gridbtn:hover {
+    background-color:white;
+}
+
+
+.lastimg {
+    display:flex;
+    margin:100px;
+}
+
+.imgcont {
+    position:relative;
+    height:648px;
+    width:678px;
+    overflow:hidden;
+}
+
+.imgcont2 {
+    position:relative;
+    height:648px;
+    width:1358px;
+    overflow:hidden;
+}
+
+.item {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.imgcont:hover .item img {
+    transform: scale(1.05);
+}
+
+.imgcont2:hover .item img {
+    transform: scale(1.05);
+}
+
+
+.item img {
+    transition: 0.6s ease;
+}
+
+.lastly {
+    display:flex;
+    margin-top:50px;
+}
+
+.columnss {
+    position:relative;
+    width:50%;
+    text-align:center;
+    background-color:inherit;
+    color:black;
+}
+
+.1st {
+    position:absolute;
+}
+
+.forms {
+    position:absolute;
+
+
+}
+
+#f1 {
+    font-size:15pt;
+    height:50px;
+    width:450px;
+}
+
+
+.ss {
+    border:none;
+    background-color:lightgrey;
+    padding: 15px 70px 15px 70px;
+    cursor:pointer;
+}
+
+.ss:hover {
+    background-color:grey;
+    color:white;
+}
+
+.final {
+    display:flex;
+    margin-top:60px;
+    margin-left:45px;
+    cursor:pointer;
+}
+
+.copyright {
+    display:flex;
+    font-size:18px;
+    margin-top:1px;
+}
+
+#SpeakerLink:link, #SpeakerLink:visited  {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+#SpeakerLink:hover, #SpeakerLink:active {
+    text-decoration: none !important;
+    color: white;
+}

@@ -1,0 +1,352 @@
+﻿<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="buttonstyle.css">
+
+    <style>
+      .topimage {
+	  position:relative;
+	  text-align:center;
+	  font-size:24px;
+	  color:white;
+      }
+
+      .textonimage {
+	  position:absolute;
+	  top:50px;
+	  left:450px;
+      }
+
+      .sidebutton {
+	  position:absolute;
+	  top:30px;
+	  right:15px;
+	  border:grey;
+	  background-color:darkgray;
+	  padding:12px 30px 12px 30px;
+	  color:white;
+	  font-size:18px;
+      }
+
+      .sidebutton:hover {
+	  cursor:pointer;
+	  color:black;
+	  background-color:white;
+      }
+
+      .row {
+	  margin-top:100px;
+	  display:flex;
+      }
+
+      .column {
+	  flex:25%
+
+      }
+
+      a img:last-child {
+	  display:none;
+      }
+
+      a:hover img:last-child {
+	  display:block;
+      }
+
+      a:hover img:first-child {
+	  display:none;
+      }
+
+      .big_flex_1 {
+	  display: flex;
+	  background-color:black;
+	  text-align:center;
+      }
+
+      .half {
+	  flex: 50%
+      }
+
+
+      .dancebutton {
+	  border:none;
+	  cursor: pointer;
+	  background-color:black;
+	  font-size: 12px;
+	  color:white;
+      }
+
+
+
+
+      .dancebutton span {
+	  cursor: pointer;
+	  position:relative;
+	  transition: 0.4s;
+      }
+
+      .dancebutton span:before {
+	  content: '\002D';
+	  position: absolute;
+	  transition: 0.4s;
+	  right: 85px;
+
+      }
+
+      .dancebutton:hover span {
+	  padding-left: 20px;
+      }
+
+      .dancebutton:hover span:before {
+	  padding-right: 20px;
+      }
+
+      .big1:hover {
+	  transition:0.3s;
+	  opacity: 0.8;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <script src="header.js"></script>
+
+    <div class="topimage">
+      <img src="imagess/unsplash/greenlight.jpg" alt="" style="width:100%">
+      <div class="textonimage">Speakers Collection
+	</br>
+	<h1><strong>SPEAKERS</strong></h1>
+	</br>
+	<p>Since 1925, Bang &amp; Olufsen has been synonymous with the art of</br>
+	acoustic perfection. To this day, our craftsmen still calibrate and tune
+	</br> every loudspeaker model by hand.</p></div>
+	<div><button class="sidebutton">FIND STORE</button></div>
+    </div>
+
+    <div style="text-align:center; font-size:35px; margin-top:150px;"><b>PORTABLE BLUETOOTH SPEAKERS</b></div>
+
+    <div class="row">
+
+      <div class="column">
+	<div class="1">
+	  <a>
+	    <img src="imagess/io/1000.jpg" style="width:100%">
+	    <img src="imagess/io/line.jpg" style="width:100%">
+	  </a>
+	  <h5>BEOLIT 17</h5>
+	  <ul>
+	    <li>Powerful 360 sound</li>
+	    <li>Bluetooth connectivity</li>
+	    <li>Up to 24 hours battery></li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="2">
+	  <a>
+	    <img src="imagess/io/beoplay-a1-static-img.jpg" style="width:100%">
+	    <img src="imagess/io/beoplay-a1-active-img.jpg" style="width:100%">
+	  </a>
+	  <h5>BEOPLAY A1</h5>
+	  <ul>
+	    <li>Impressive 360 sound</li>
+	    <li>Bluetooth connectivity</li>
+	    <li>Up to 24 hours battery></li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="3">
+	  <a>
+	    <img src="imagess/io/p2white.jpg" style="width:100%">
+	    <img src="imagess/io/beoplay-p2-active.jpg" style="width:100%">
+	  </a>
+	  <h5>BEOPLAY P2</h5>
+	  <ul>
+	    <li>Compact and portable</li>
+	    <li>Bluetooth connectivity</li>
+	    <li>Up to 10 hours battery></li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="4">
+	  <a>
+	    <img src="imagess/io/p6black.jpg" style="width:100%">
+	    <img src="imagess/io/beoplay-p6-active.jpg" style="width:100%">
+	  </a>
+	  <h5>BEOPLAY P6</h5>
+	  <ul>
+	    <li>Impressive 360 sound</li>
+	    <li>Bluetooth connectivity</li>
+	    <li>Up to 16 hours battery></li>
+	  </ul>
+	</div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; font-size:35px; margin-top:150px;"><b>WIRELESS SPEAKER SYSTEMS</b></div>
+
+
+    <div class="row">
+
+      <div class="column">
+	<div class="1">
+	  <a>
+	    <img src="imagess/io/beoedge1.jpg"  style="width:100%">
+	    <img src="imagess/io/beoedge2.jpg"  style="width:100%">
+	  </a>
+	  <div><h5>BEOSOUND EDGE</h5></div>
+	  <ul>
+	    <li>True360 room-filliong sound</li>
+	    <li>Directional sound control</li>
+	    <li>Multiroom</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="2">
+	  <a>
+	    <img src="imagess/io/beoshape1.jpg"  style="width:100%">
+	    <img src="imagess/io/beoshape2.jpg"  style="width:100%">
+	  </a>
+	  <h5>BEOSOUND SHAPE</h5>
+	  <ul>
+	    <li>High-quality music as interior</li>
+	    <li>Unique personilazation possibilities</li>
+	    <li>Immersive sound staging</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="3">
+	  <a>
+	    <img src="imagess/io/beo351.jpg"  style="width:100%">
+	    <img src="imagess/io/beo352.jpg"  style="width:100%">
+	  </a>
+	  <h5>BEOSOUND 35</h5>
+	  <ul>
+	    <li>Easy-to use touch interface</li>
+	    <li>Table stand or wall mounted</li>
+	    <li>4 powerful speaker drivers</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="4">
+	  <a>
+	    <img src="imagess/io/beo21.jpg"  style="width:100%">
+	    <img src="imagess/io/beo22.jpg"  style="width:100%">
+	  </a>
+	  <h5>BEOSOUND 2</h5>
+	  <ul>
+	    <li>360-degree sound</li>
+	    <li>Powerful sound performance</li>
+	    <li>Meticulous aluminium craftmanship</li>
+	  </ul>
+	</div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="column">
+	<div class="1">
+	  <a>
+	    <img src="imagess/io/beo11.jpg">
+	    <img src="imagess/io/beo12.jpg">
+	  </a>
+	  <h5>BEOSOUND 1</h5>
+	  <ul>
+	    <li>360-degree sound</li>
+	    <li>16 hours of battery lifetime</li>
+	    <li>Ultimate flexibility</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="2">
+	  <a>
+	    <img src="imagess/io/beoa91.jpg">
+	    <img src="imagess/io/beoa92.jpg">
+	  </a>
+	  <h5></br>BEOPLAY A9</h5>
+	  <ul>
+	    <li>Powerful sound performance</li>
+	    <li>Wifi, Bluetooth and Multiroom</li>
+	    <li>Integrated music services</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="3">
+	  <a>
+	    <img src="imagess/io/beom51.jpg">
+	    <img src="imagess/io/beom52.jpg">
+	  </a>
+	  <h5></br>BEOPLAY M5</h5>
+	  <ul>
+	    <li>360 sound</li>
+	    <li>Wifi, Bluetooth and Multiroom</li>
+	    <li>Exchangeable fabric covers</li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="column">
+	<div class="4">
+	  <a>
+	    <img src="imagess/io/d.jpg">
+	    <img src="imagess/io/beom32.jpg">
+	  </a>
+	  <h5></br></br></br>BEOPLAY M3</h5>
+	  <ul>
+	    <li>Compact and powerful sound</li>
+	    <li>Wifi, Bluetooth and Multiroom</li>
+	    <li>Exchangeable fabric covers</li>
+	  </ul>
+	</div>
+      </div>
+
+    </div>
+
+
+    <div class="big_flex_1">
+      <div class="half">
+	<div class="text" style="color:white; padding-top:250px;">
+	  <h5>SURROUND SOUND</h5>
+	  <p>Bang &amp; Olufsen precision engineering means fine-tuning every</br>
+	  component to produce stunning sound, and maintaining constant</br>
+	  clarity and power, throughout the entire room. True home surround</br>
+	  sound should overwhelm the senses, losing you in the moment,</br>
+	  blissfully unaware of time and place.</p>
+	  <button class="dancebutton"><span>READ MORE</span></button>
+	</div>
+      </div>
+      <div class="half">
+	<img class="big1" src="imagess/io/Collection-Sound-x2.jpg" style="width:100%; padding: 150px 150px 150px 0px; cursor: pointer;">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>

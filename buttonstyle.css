@@ -1,0 +1,32 @@
+﻿.top-rows {
+    display: flex;
+    background-color:grey;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.bo {
+    background-color:inherit;
+    border:none;
+    font-size: 25px;
+    padding-top:0.1px;
+    padding-bottom:5px;
+    cursor:pointer;
+}
+
+.bo:hover {
+    background:inherit;
+    color:white;
+}
+
+.btn {
+    background-color:inherit;
+    border:none;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background:inherit;
+    color:white;
+}

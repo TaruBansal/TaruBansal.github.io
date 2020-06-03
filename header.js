@@ -1,0 +1,11 @@
+﻿document.write("<div class=\"top-rows\">");
+document.write("	<div style= \"flex-grow:1; padding-left:10px;\"><button class=\"bo\"><strong>Bang & Olufsen<\/strong><\/button><\/div>");
+document.write("	<div style=\"flex-grow:0.1\"><button class=\"btn\"> Speakers<\/button><\/div>");
+document.write("	<div style=\"flex-grow:0.1\"> <button class=\"btn\">Headphones<\/button><\/div>");
+document.write("	<div style=\"flex-grow:0.1\"> <button class=\"btn\">Televisions<\/button><\/div>");
+document.write("	<div style=\"flex-grow:0.1\"><button class=\"btn\"> Accessories<\/button><\/div>");
+document.write("	<div style=\"flex-grow:0.1\"> <button class=\"btn\">Find Store<\/button><\/div>");
+document.write("	<div style=\"flex-grow:1\"><button class=\"btn\"> Explore<\/button><\/div> ");
+document.write("	<div style=\"flex-grow:0.2\"> <button class=\"btn\"><i class=\"fa fa-shopping-bag\" style=\"font-size:24px;\"><\/i><\/button><\/div>");
+document.write(" ");
+document.write("     <\/div>");
